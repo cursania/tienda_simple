@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Sistema_ventas_simples</string>
+    <string name="nombre_producto">Producto</string>
+    <string name="nombre_cliente">cliente</string>
+    <string name="nombre_venta">Venta</string>
+    <string name="nombre_historial">Historial</string>
+    <string name="buscar_producto">Buscar producto</string>
+    <string name="nombre_item_producto">Nombre del producto</string>
+    <string name="precio_item">Precio</string>
+    <string name="precio_item_cero">0.0</string>
+    <string name="buscar_cliente">Buscar cliente</string>
+    <string name="nombre">Nombre</string>
+    <string name="numero_telefono">Numero telefono</string>
+    <string name="email">Correo electronico</string>
+    <string name="direccion">Dirección</string>
+    <string name="observacion">Observación</string>
+    <string name="total">Total</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="precio">Precio</string>
+    <string name="precio_cero">0</string>
+    <string name="fecha">Fecha</string>
+    <string name="hora">Hora</string>
+    <string name="hora_actual">08:00</string>
+    <string name="fecha_actual">2018-09-22</string>
+    <string name="backup">Backup</string>
+    <string name="restore">Restore</string>
+</resources>

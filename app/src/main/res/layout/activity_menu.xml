@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <include layout="@layout/toolbar_layout"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:background="#e8f5e9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:weightSum="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="0.5"
+                    >
+
+                    <ImageButton
+                        android:id="@+id/amIbProducto"
+                        android:background="@android:color/white"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/ic_menu_producto"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp" />
+
+                    <TextView
+                        android:textColor="@color/negro"
+                        android:textStyle="bold"
+                        android:layout_marginTop="-30dp"
+                        android:text="@string/nombre_producto"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="0.5"
+                    >
+
+                    <ImageButton
+                        android:id="@+id/amIbCliente"
+                        android:background="@android:color/white"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/ic_menu_cliente"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp" />
+
+                    <TextView
+                        android:textColor="@color/negro"
+                        android:textStyle="bold"
+                        android:layout_marginTop="-30dp"
+                        android:text="@string/nombre_cliente"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:weightSum="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="0.5"
+                    >
+
+                    <ImageButton
+                        android:id="@+id/amIbVenta"
+                        android:background="@android:color/white"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/ic_menu_venta"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp" />
+
+                    <TextView
+                        android:textColor="@color/negro"
+                        android:textStyle="bold"
+                        android:layout_marginTop="-30dp"
+                        android:text="@string/nombre_venta"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="0.5"
+                    >
+
+                    <ImageButton
+                        android:id="@+id/amIbVentaHistorial"
+                        android:background="@android:color/white"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/ic_menu_historial"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp" />
+
+                    <TextView
+                        android:textColor="@color/negro"
+                        android:textStyle="bold"
+                        android:layout_marginTop="-30dp"
+                        android:text="@string/nombre_historial"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
